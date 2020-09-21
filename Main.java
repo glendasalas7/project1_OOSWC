@@ -6,7 +6,7 @@ public class Main{
 
 			JFrame window = new JFrame();
 			window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-			window.setLocation(400, 400);
+			window.setLocation(500, 100);
 
 			var menu = new WordGuessPanel(window);
 			menu.init();

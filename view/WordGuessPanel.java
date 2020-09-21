@@ -20,6 +20,7 @@ public class WordGuessPanel {
 		READY, PLAYING, GAMEOVER
 	}
 
+
 	private JFrame window;
 	private GameCanvas canvas;
 	private WordGuessModel game;
@@ -34,6 +35,7 @@ public class WordGuessPanel {
 
 	public WordGuessPanel(JFrame window){
 		this.window = window;
+		window.setTitle("Project 1: WordGuess Game");
 	}
 
 	public void init(){
