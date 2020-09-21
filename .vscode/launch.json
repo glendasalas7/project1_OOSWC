@@ -1,0 +1,37 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - Main",
+			"request": "launch",
+			"mainClass": "Main",
+			"projectName": "project1_619ccf18"
+		},
+		{
+			"type": "java",
+			"name": "Debug (Launch) - Current File",
+			"request": "launch",
+			"mainClass": "${file}"
+		},
+		{
+			"type": "java",
+			"name": "Main",
+			"vmArgs": "-ea",
+			"request": "launch",
+			"mainClass": "Main",
+			"projectName": "lesson2_2a1ee71a"
+		},
+		{
+			"type": "java",
+			"name": "BaseballGameTest",
+			"request": "launch",
+			"vmArgs": "-ea",
+			"mainClass": "test.BaseballGameTest",
+			"projectName": "lesson2_2a1ee71a"
+		}
+	]
+}
